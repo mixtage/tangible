@@ -1,3 +1,58 @@
+body {
+ margin: 0;
+}
+
+#container1 {
+  padding: 20;
+  padding-left: 60;
+  padding-right: 60;
+  font-family: arial;
+}
+
+h1 {
+  font-family: arial;
+}
+
+#container2 {
+  padding: 20;
+  padding-left: 60;
+  padding-right: 60;
+  color: white;
+  background-color: #cc0000;
+  font-family: arial;
+}
+
+#container3 {
+
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#container4 {
+  padding: 20;
+  padding-left: 60;
+  padding-right: 60;
+  font-family: Arial;
+  color: white;
+  background-color: black
+ 
+}
+
+#container6 {
+  padding: 20;
+  padding-left: 60;
+  padding-right: 60;
+  font-family: arial;
+}
+
+.navbar {
+  overflow: hidden;
+  font-family: arial;
+}
+
 .navbar a {
   float: left; 
   display: block;
