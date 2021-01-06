@@ -1,0 +1,52 @@
+.navbar a {
+  float: left; 
+  display: block;
+  color: black;
+  text-align: center; 
+  padding: 14px 20px;
+  text-decoration: none; 
+}
+
+.navbar a.right {
+  float: right; 
+}
+
+.navbar a:hover {
+  background-color: yellow; 
+  color: black; 
+}
+
+.blinking{
+    animation:blinkingText 2s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: #white;    }
+    49%{    color: #white; }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #white;    }
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-family: monospace;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+  font-family: monospace;
+}
+
+a:hover {
+  color: hotpink;
+  text-decoration: none;
+  font-family: monospace;
+}
+
+a:active {
+  color: black;
+  text-decoration: none;
+  font-family: monospace;
+}
