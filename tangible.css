@@ -48,6 +48,57 @@ img {
   font-family: arial;
 }
 
+#container7 {
+  padding: 20;
+  padding-left: 60;
+  padding-right: 60;
+  font-family: arial;
+  background-color: #8599ad;
+}
+
+#container8 {
+  display: flex;
+  justify-content: space-around;
+  background-color: #8599ad;
+  font-family: arial;
+}
+
+#left {
+  background-color: #8599ad;
+  width: 40%;
+}
+
+#right {
+  background-color: #8599ad;;
+  width: 40%;
+}
+
+#container9 {
+  padding: 20;
+  padding-left: 60;
+  padding-right: 60;
+  background-color: #8599ad;
+  font-family: arial;
+}
+
+#container10 {
+  padding: 20;
+  padding-left: 60;
+  padding-right: 60;
+  background-color: #8599ad;
+  font-family: arial;
+   height: 200px;
+  overflow-y: scroll;
+}
+
+#container11 {
+   padding: 20;
+  padding-left: 60;
+  padding-right: 60;
+  background-color: #8599ad;
+  font-family: arial;
+}
+
 .navbar {
   overflow: hidden;
   font-family: arial;
