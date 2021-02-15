@@ -99,6 +99,33 @@ img {
   font-family: arial;
 }
 
+#container12 {
+  padding: 20;
+  padding-left: 60;
+  padding-right: 60;
+  color: #99ff99;
+  background-color: #cc6699;
+  font-family: arial;
+}
+
+
+#container13 {
+  padding: 60;
+  color: #99ff99;
+  background-color: #cc6699;
+  font-family: arial;
+}
+
+#container14 {
+  padding: 20;
+  padding-left: 60;
+  padding-right: 60;
+  color: white;
+  background-color: #cc6699;
+  font-family: arial;
+}
+
+
 .navbar {
   overflow: hidden;
   font-family: arial;
