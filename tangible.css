@@ -2,6 +2,26 @@ body {
  margin: 0;
 }
 
+.navbar {
+  overflow: hidden;
+  font-family: arial;
+}
+
+.navbar a {
+  float: left; 
+  display: block;
+  color: black;
+  text-align: center; 
+  padding: 14px 20px;
+  text-decoration: none; 
+}
+
+
+.navbar a:hover {
+  background-color: yellow; 
+  color: black; 
+}
+
 #container1 {
   padding: 20;
   padding-left: 60;
@@ -46,6 +66,57 @@ img {
   padding-left: 60;
   padding-right: 60;
   font-family: arial;
+}
+
+#stars {
+    padding: 20;
+  padding-left: 60;
+  padding-right: 60;
+  background-color: black;
+  color: white;
+  font-family: arial;
+}
+
+#stars2 {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  font-family: arial;
+    padding: 20;
+  padding-left: 60;
+  padding-right: 60;
+}
+
+#left1 {
+  background-color: black;
+  width: 40%;
+  color: white;
+}
+
+#right2 {
+  background-color: black;
+  width: 40%;
+  color: white;
+}
+
+#whacktitle {
+  padding: 20;
+  padding-left: 60;
+  padding-right: 60;
+  font-family: arial;
+
+}
+
+#whack {
+   padding: 20;
+  padding-left: 200;
+  padding-right: 200;
+  font-family: arial;
+}
+
+#whackgen {
+  background: rgb(2,0,36);
+background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(19,73,128,1) 32%, rgba(133,153,173,1) 100%);
 }
 
 #container7 {
@@ -108,23 +179,71 @@ img {
   font-family: arial;
 }
 
-
-#container13 {
-  padding: 60;
-  color: #99ff99;
+#lovespell {
+  display: flex;
+  justify-content: space-around;
   background-color: #cc6699;
   font-family: arial;
+  color: #99ff99;
+}
+
+#l1 {
+  background-color: #cc6699;
+  width: 40%;
+}
+
+#l2 {
+  background-color: #cc6699;
+  width: 40%;
+}
+
+#container13 {
+  background: rgb(251,226,0);
+background: linear-gradient(0deg, rgba(251,226,0,1) 0%, rgba(204,102,153,1) 100%);
 }
 
 #container14 {
   padding: 20;
   padding-left: 60;
   padding-right: 60;
-  color: white;
-  background-color: #cc6699;
+color: #fb00b4;
+  background-color: #fbe200;
   font-family: arial;
 }
 
+#colorchange {
+  background: rgb(243,247,192);
+background: linear-gradient(0deg, rgba(243,247,192,1) 0%, rgba(251,226,0,1) 100%);
+}
+
+#plaited {
+
+  padding: 20;
+  padding-left: 60;
+  padding-right: 60;
+background-color: #f3f7c0;
+ 
+  font-family: arial;
+
+}
+
+#plaitedrug {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f3f7c0;
+  font-family: arial;
+  color: #99ff99;
+}
+
+#r1 {
+  background-color: ;
+  width: 40%;
+}
+
+#r2 {
+  background-color: ;
+  width: 40%;
+}
 
 .navbar {
   overflow: hidden;
@@ -163,23 +282,23 @@ img {
 a {
   color: black;
   text-decoration: none;
-  font-family: monospace;
+  font-family: arial;
 }
 
 a:visited {
   color: black;
   text-decoration: none;
-  font-family: monospace;
+  font-family: arial;
 }
 
 a:hover {
   color: hotpink;
   text-decoration: none;
-  font-family: monospace;
+  font-family: arial;
 }
 
 a:active {
   color: black;
   text-decoration: none;
-  font-family: monospace;
+  font-family: arial;
 }
